@@ -1,0 +1,121 @@
+{% extends "index.html" %}
+{% load static %}
+{% block content %}
+        <!-- About Start -->
+        <div class="container-fluid py-5 my-5">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-5 col-md-6 col-sm-12 wow fadeIn" data-wow-delay=".3s">
+                        <div class="h-100 position-relative">
+                            <img src="{% static 'img/about-1.jpg' %}" class="img-fluid w-75 rounded" alt="" style="margin-bottom: 25%;">
+                            <div class="position-absolute w-75" style="top: 25%; left: 25%;">
+                                <img src="{% static 'img/about-2.jpg' %}" class="img-fluid w-100 rounded" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 col-md-6 col-sm-12 wow fadeIn" data-wow-delay=".5s">
+                        <h5 class="text-primary">À propos de nous</h5>
+                        <h1 class="mb-4">Decouvrez Toutes Nos Activités</h1>
+                        <p>Découvrez Gak Services, votre partenaire polyvalent pour toutes vos besoins commerciaux et plus encore ! Nous sommes une entreprise dynamique engagée dans une gamme variée d'activités, avec une passion pour l'excellence et l'innovation.</p>
+                        <p class="mb-4">À travers nos plateformes de mise en relations, nous créons des ponts entre les individus, les entreprises et les opportunités, facilitant ainsi des collaborations fructueuses et des partenariats solides.</p>
+                        <p class="mb-4">En tant que détaillant de confiance dans le domaine des produits électroniques, nous vous offrons un accès aux dernières technologies et gadgets, garantissant ainsi une expérience client exceptionnelle.</p>
+                        <p class="mb-4">Nos prestations de services commerciaux sont conçues pour stimuler la croissance de votre entreprise en fournissant des stratégies efficaces de vente, des solutions de marketing personnalisées et une gestion de la relation client de premier ordre.</p>
+                        <p class="mb-4">De plus, notre engagement envers la durabilité et la qualité se reflète dans notre activité de transformation et de vente de produits agroalimentaires. Nous nous efforçons de fournir des produits de la plus haute qualité, tout en soutenant les pratiques agricoles durables et respectueuses de l'environnement.</p>
+                        <p class="mb-4">Chez Gak Services, nous sommes déterminés à vous offrir des solutions innovantes et adaptées à vos besoins, tout en vous garantissant une excellence opérationnelle à chaque étape de votre parcours. Faites équipe avec nous pour atteindre de nouveaux sommets de réussite commerciale !</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+
+        <!-- Team Start -->
+        <div class="container-fluid py-5 mb-5 team">
+            <div class="container">
+                <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px;">
+                    <h5 class="text-primary">Notre équipe</h5>
+                    <h1>Rencontrez notre équipe d'experts</h1>
+                </div>
+                <div class="owl-carousel team-carousel wow fadeIn" data-wow-delay=".5s">
+                    <div class="rounded team-item">
+                        <div class="team-content">
+                            <div class="team-img-icon">
+                                <div class="team-img rounded-circle">
+                                    <img src="{% static 'img/team-1.jpeg' %}" class="img-fluid w-100 rounded-circle" alt="">
+                                </div>
+                                <div class="team-name text-center py-3">
+                                    <h4 class="">Garba Ismailah</h4>
+                                    <p class="m-0">CEO & Founder</p>
+                                </div>
+                                <div class="team-icon d-flex justify-content-center pb-4">
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-instagram"></i></a>
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rounded team-item">
+                        <div class="team-content">
+                            <div class="team-img-icon">
+                                <div class="team-img rounded-circle">
+                                    <img src="{% static 'img/team-2.jpeg' %}" class="img-fluid w-100 rounded-circle" alt="">
+                                </div>
+                                <div class="team-name text-center py-3">
+                                    <h4 class="">SOVI Kodjovi</h4>
+                                    <p class="m-0">Agent technique</p>
+                                </div>
+                                <div class="team-icon d-flex justify-content-center pb-4">
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-instagram"></i></a>
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rounded team-item">
+                        <div class="team-content">
+                            <div class="team-img-icon">
+                                <div class="team-img rounded-circle">
+                                    <img src="{% static 'img/team-3.png' %}" class="img-fluid w-100 rounded-circle" alt="">
+                                </div>
+                                <div class="team-name text-center py-3">
+                                    <h4 class="">Joël ASSOU</h4>
+                                    <p class="m-0">IT Consultant</p>
+                                </div>
+                                <div class="team-icon d-flex justify-content-center pb-4">
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-instagram"></i></a>
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rounded team-item">
+                        <div class="team-content">
+                            <div class="team-img-icon">
+                                <div class="team-img rounded-circle">
+                                    <img src="{% static 'img/team-4.jpeg' %}" class="img-fluid w-100 rounded-circle" alt="">
+                                </div>
+                                <div class="team-name text-center py-3">
+                                    <h4 class="">Christ ASSOU</h4>
+                                    <p class="m-0">Community Manager</p>
+                                </div>
+                                <div class="team-icon d-flex justify-content-center pb-4">
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-instagram"></i></a>
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Team End -->
+
+        {% endblock %}
